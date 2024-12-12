@@ -19,10 +19,10 @@ This repository contains a simple low-latency trading engine implemented in Type
 **Request Body**:
 ```json
 {
-  "type": "limit",       // Type of the order: "limit"
-  "side": "buy",         // Side of the order: "buy" or "sell"
-  "price": 100.5,         // Price for the limit order
-  "quantity": 10          // Quantity of the asset
+  "type": "limit",       
+  "side": "buy",       
+  "price": 100.5,     
+  "quantity": 10         
 }
 ```
 
@@ -30,7 +30,7 @@ This repository contains a simple low-latency trading engine implemented in Type
 ```json
 {
   "status": "success",
-  "orderId": "12345",    // Unique identifier for the order
+  "orderId": "12345",   
   "message": "Order placed successfully."
 }
 ```
@@ -49,8 +49,8 @@ This repository contains a simple low-latency trading engine implemented in Type
 ```json
 {
   "status": "success",
-  "executedPrice": 101.0,  // Average price for the market order
-  "quantity": 5,           // Quantity executed
+  "executedPrice": 101.0,  
+  "quantity": 5,         
   "message": "Market order executed."
 }
 ```
@@ -80,8 +80,8 @@ This repository contains a simple low-latency trading engine implemented in Type
 {
   "status": "success",
   "balance": {
-    "USD": 5000,     // Remaining cash
-    "ASSET": 100     // Asset holdings
+    "USD": 5000,   
+    "ASSET": 100    
   }
 }
 ```
@@ -154,12 +154,5 @@ This repository contains a simple low-latency trading engine implemented in Type
 
 ---
 
-## License
-This project is licensed under the MIT License. Feel free to use and modify it as needed.
-
----
-
-## Contributions
-Contributions are welcome! Please open an issue or submit a pull request to improve the engine.
 
 
